@@ -1,0 +1,117 @@
+ @media (min-width: 1046px) and (max-width: 1280px) {
+     .rocket__item {
+         margin-right: 16px;
+     }
+     .rocket__list {
+         font-size: 15px;
+     }
+ }
+ 
+ @media (max-width: 1046px) {
+     .rocket__content {
+         justify-content: center;
+     }
+     .rocket__block-text {
+         margin-right: 0;
+     }
+     .rocket__title {
+         text-align: center;
+         margin-top: 45px;
+     }
+     .rocket__item {
+         margin-bottom: 110px;
+     }
+     .rocket__ul {
+         display: flex;
+         justify-content: center;
+     }
+     .rocket__bacground {
+         display: none;
+     }
+     .rocket {
+         margin-bottom: 150px;
+     }
+ }
+ 
+ @media (max-width: 810px) {
+     .falcon__background {
+         height: 900px;
+     }
+ }
+ 
+ @media (max-width: 728px) {
+     .nav {
+         display: none;
+     }
+     .falcon__title {
+         font-size: 55px;
+         margin-bottom: 4px;
+     }
+     .rocket__title {
+         font-size: 20px;
+         margin-bottom: 25px;
+     }
+     .rocket__list {
+         font-size: 15px;
+     }
+     .falcon__background-line {
+         min-height: 40px;
+     }
+     .falcon__background {
+         height: 800px;
+     }
+     .nav__link.footer_link {
+         font-size: 16px;
+         margin-right: 0;
+     }
+ }
+ 
+ @media (max-width: 650px) {
+     .falcon__title {
+         font-size: 52px;
+     }
+     .falcon__background {
+         height: 700px;
+     }
+     .rocket__title {
+         margin-top: 0;
+     }
+     .rocket__item {
+         margin-right: 90px;
+     }
+     .nav__link.footer__link {
+         margin-right: 15px;
+     }
+     .nav__link.footer__link:first-child {
+         margin-left: 15px;
+     }
+     .footer__social {
+         justify-content: center;
+         margin-bottom: 28px;
+         flex-wrap: wrap;
+     }
+ }
+ 
+ @media (max-width: 550px) {
+     .falcon__background {
+         height: 550px;
+     }
+     .footer__img {
+         margin-bottom: 25px;
+     }
+ }
+ 
+ @media (max-width: 450px) {
+     .falcon__title {
+         font-size: 40px;
+     }
+     .falcon__background {
+         height: 450px;
+     }
+     .rocket__item {
+         margin-right: 50px;
+     }
+     .footer__btn {
+         width: 200px;
+     }
+ }
